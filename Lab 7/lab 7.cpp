@@ -103,15 +103,13 @@ float vectorminmax(float repONE[], float repTWO[], float min[], float max[]) {
 	max[0] = repONE[0];
 	for (i = 1; i < DIMENSION; i++) {
 		if (max[0] > repONE[i]) {
-		}
-		else {
+		}else {
 			max[0] = repONE[i];
 		}
 	}
 	for (i = 0; i < DIMENSION; i++) {
 		if (max[0] > repTWO[i]) {
-		}
-		else {
+		}else {
 			max[0] = repTWO[i];
 		}
 	}
@@ -119,15 +117,13 @@ float vectorminmax(float repONE[], float repTWO[], float min[], float max[]) {
 	min[0] = repONE[0];
 	for (i = 1; i < DIMENSION; i++) {
 		if (min[0] < repONE[i]) {
-		}
-		else {
+		}else {
 			min[0] = repONE[i];
 		}
 	}
 	for (i = 0; i < DIMENSION; i++) {
 		if (min[0] < repTWO[i]) {
-		}
-		else {
+		}else {
 			min[0] = repTWO[i];
 		}
 	}
