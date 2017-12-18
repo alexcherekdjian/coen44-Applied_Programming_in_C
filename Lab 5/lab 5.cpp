@@ -10,17 +10,12 @@ Description: This program computes a multitude of calculations a user may want t
 
 // defining user defined functions
 float maxval(float one, float two, float three);
-
 float minval(float one, float two, float three);
-
 char equalval(float one, float two, float three);
-
 float averageval(float one, float two, float three);
-
 char nearequal(float one, float two, float three);
 
 char alt();
-
 
 int main() {
 
